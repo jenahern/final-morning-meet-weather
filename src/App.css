@@ -1,0 +1,252 @@
+
+/* Calendar CSS */
+.react-calendar { 
+  width: 800px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+ .react-calendar__navigation button {
+  color: #0077ff;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .react-calendar__navigation button:enabled:hover,
+ .react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+ }
+ abbr[title] {
+  text-decoration: none;
+ }
+ .react-calendar__month-view__days__day--weekend {
+  color: #00c3dd;
+ }
+ .react-calendar__tile:enabled:hover,
+ .react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #0077ff;
+  border-radius: 6px;
+ }
+ .react-calendar__tile--now {
+  background: #0077ff33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #0077ff;
+ }
+ .react-calendar__tile--now:enabled:hover,
+ .react-calendar__tile--now:enabled:focus {
+  background: #0077ff33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #0077ff;
+ }
+ .react-calendar__tile--hasActive:enabled:hover,
+ .react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+ }
+ .react-calendar__tile--active {
+  background: #0077ff;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+ }
+ .react-calendar__tile--active:enabled:hover,
+ .react-calendar__tile--active:enabled:focus {
+  background: #0077ff;
+  color: white;
+ }
+ .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #0077ff;
+  border-radius: 0;
+ }
+ .react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #0077ff;
+  color: white;
+ }
+ .react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #0077ff;
+  color: white;
+ }
+
+ .date-card { 
+  width: 800px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+   
+ }
+
+ /* Cards */
+ .sidebar-card { 
+  width: 800px;
+  max-width: 100%;
+  background-color: whitesmoke;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+ 
+ }
+
+ .cal-card { 
+  width: 800px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+   
+ }
+ .container-md {
+  width: 800px;
+  max-width: auto;
+  /* background-color: whitesmoke; */
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  
+ }
+
+ /* Weather Cards */
+ .weather {
+  width: 800px;
+  max-width: 100%;
+  margin-top: 10px;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  }
+  .weather .title {
+    font-size: 2rem;
+  
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .weather form {
+    margin-top: 30px;
+  }
+  .weather form input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px dashed rgb(2, 57, 88);
+    margin-right: 10px;
+  }
+  
+  .weather form input:focus {
+    outline: none;
+    border-bottom: 3px dashed rgb(2, 57, 88);
+  }
+  
+  .displayweather {
+    margin-top: 10px;
+ 
+  }
+  
+  .displayweather .maincard {
+    width: 800px;
+    max-width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+  }
+  
+  .displayweather .maincard .cardtitle {
+    position: flex;
+    top: 0px;
+    left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .displayweather .maincard .cardsubtitle {
+    position: flex;
+    left: 10px;
+  
+    color: grey;
+    margin-top: 20px;
+  }
+  .displayweather h1 {
+    font-size: 5rem;
+    margin: 5px;
+    margin-left: -175px;
+  }
+  
+  .displayweather .weather-icon {
+    width: 100px;  
+    position: absolute;
+    top: 50px;
+  }
+  
+  .displayweather .weather-main {
+    position: absolute;  
+    top: 120px;
+    left: 310px;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  
+  .displayweather .weather-description {
+    /* position: absolute; */
+    left: 10px;
+    font-size: 1.4rem;
+  }
+  .displayweather .weatherdetails {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+  
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  .displayweather .weatherdetails .section1 {
+    justify-self: right;
+    width: 300px;
+  }
+  
+  h4 {
+    text-align: left;
+    margin-right: 30px;
+    font-size: 1.2rem;
+  }
+  
+  td {
+    border-bottom: 2px dashed grey;
+  }
+  
+  .displayweather .weatherdetails span {
+    font-size: 1.2rem;
+  }
+ 
